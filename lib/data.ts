@@ -40,6 +40,7 @@ export const links = [
 export const experiencesData = [
   {
     title: "Education",
+    positions: "Full Stack Web Development",
     location: "Evangadi Tech",
     description:
       "I completed Evangadi Tech's FULL STACK WEB DEVELOPMENT program in October 2023, mastering front-end technologies like JavaScript and React JS, back-end technologies including Node JS and Express, and database management with MySQL. I also gained proficiency in Git version control and cloud deployment using Firebase and AWS. This program has equipped me with the skills needed to succeed as a full-stack developer.",
