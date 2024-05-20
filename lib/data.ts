@@ -48,7 +48,7 @@ export const experiencesData = [
     date: "2023",
   },
   // {
-  //   title: "Data Entery",
+  //   title: "Front End Developer",
   //   location: "YENAI PROPERTIES LLC",
   //   description:
   //     "As a dedicated Data Entry Specialist at YENAI PROPERTIES LLC, I played a pivotal role in maintaining the accuracy and integrity of critical data within the company's databases. My responsibilities encompassed a range of tasks that demanded precision, attention to detail, and a commitment to maintaining high-quality standards. Conducted efficient and error-free data entry tasks, ensuring the integrity of essential information. Regularly audited databases to identify and rectify discrepancies, contributing to a consistently reliable dataset. Collaborated with cross-functional teams to streamline data processes and enhance overall efficiency. Prioritized and managed workload to meet tight deadlines without compromising accuracy.",
@@ -57,11 +57,21 @@ export const experiencesData = [
   // },
   {
     title: "Work Experience",
+    positions: "Front End Developer",
+    location: "Dallas TX",
+    description:
+      "With 20 years in retail, I've excelled as an Assistant Store Manager at Marshalls, focusing on operational excellence, team leadership, and customer satisfaction. I've driven store performance, optimized operations, and enhanced customer experiences through strategic initiatives, leading to improved staff efficiency and increased productivity.",
+    icon: React.createElement(FaReact),
+    date: "2023 - Current",
+  },
+  {
+    title: "Work Experience",
+    positions: "Assistant Store Manager",
     location: "Wahington, DC",
     description:
       "With 20 years in retail, I've excelled as an Assistant Store Manager at Marshalls, focusing on operational excellence, team leadership, and customer satisfaction. I've driven store performance, optimized operations, and enhanced customer experiences through strategic initiatives, leading to improved staff efficiency and increased productivity.",
     icon: React.createElement(FaReact),
-    date: "2001 - 2022",
+    date: "2001 - 2023",
   },
 ] as const;
 

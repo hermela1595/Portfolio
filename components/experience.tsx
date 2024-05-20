@@ -46,6 +46,7 @@ export default function Experience() {
               //  iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
             >
               <h3 className="font-semibold capitalize">{item.title}</h3>
+              <p className="font-normal !mt-0">{item.positions}</p>
               <p className="font-normal !mt-0">{item.location}</p>
               <p className="!mt-1 !font-normal text-gray-700 dark:text-white/75">
                 {item.description}
