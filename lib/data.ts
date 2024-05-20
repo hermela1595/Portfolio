@@ -60,7 +60,7 @@ export const experiencesData = [
     positions: "Front End Developer",
     location: "Dallas TX",
     description:
-      "With 20 years in retail, I've excelled as an Assistant Store Manager at Marshalls, focusing on operational excellence, team leadership, and customer satisfaction. I've driven store performance, optimized operations, and enhanced customer experiences through strategic initiatives, leading to improved staff efficiency and increased productivity.",
+      "As a Front End Developer, I create dynamic, responsive web applications using HTML, CSS, and JavaScript. I'm skilled in React and Angular, collaborating with designers and back-end developers to ensure seamless integration and performance. I focus on debugging, optimizing code, and implementing best practices to enhance user experience and accessibility.",
     icon: React.createElement(FaReact),
     date: "2023 - Current",
   },
