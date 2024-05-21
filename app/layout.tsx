@@ -6,12 +6,15 @@ import Footer from "@/components/footer";
 import ThemeSwitch from "@/components/theme-switch";
 import ThemeContextProvider from "@/context/theme-context";
 import { Toaster } from "react-hot-toast";
+import { Metadata } from "next";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata = {
+export const metadata: Metadata = {
+  icons:
+    "https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://netflix.com&size=16",
   title: "Hermela | Personal Portfolio",
-  description: "Ricardo is a full-stack developer with 8 years of experience.",
+  description: "Hermela is a full-stack developer with 2 years of experience.",
 };
 
 export default function RootLayout({
@@ -36,7 +39,7 @@ export default function RootLayout({
             <Toaster position="top-right" />
             <ThemeSwitch />
           </ActiveSectionContextProvider>
-        </ThemeContextProvider> 
+        </ThemeContextProvider>
       </body>
     </html>
   );
