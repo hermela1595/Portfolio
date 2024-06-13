@@ -63,7 +63,7 @@ export const experiencesData = [
     description:
       "As a Front End Developer, I create dynamic, responsive web applications using HTML, CSS, and JavaScript. I'm skilled in React and Angular, collaborating with designers and back-end developers to ensure seamless integration and performance. I focus on debugging, optimizing code, and implementing best practices to enhance user experience and accessibility.",
     icon: React.createElement(FaReact),
-    date: "2023 - Current",
+    date: "2021 - Current",
   },
   {
     title: "Work Experience",
@@ -72,7 +72,7 @@ export const experiencesData = [
     description:
       "With 20 years in retail, I've excelled as an Assistant Store Manager at Marshalls, focusing on operational excellence, team leadership, and customer satisfaction. I've driven store performance, optimized operations, and enhanced customer experiences through strategic initiatives, leading to improved staff efficiency and increased productivity.",
     icon: React.createElement(FaReact),
-    date: "2001 - 2023",
+    date: "2001 - 2022",
   },
 ] as const;
 
