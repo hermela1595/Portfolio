@@ -78,14 +78,6 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "Abe Garage",
-    description:
-      "This Garage Management System is driven by the MERN stack. It offers role-based access control for Employees, Customers, Administrators, and other designated user categories.",
-    tags: ["React", "Javascript", "Node", "Bootstrap", "MySQL"],
-    imageUrl: garagelogo,
-    linkURL: "https://abegarageexpress.com)",
-  },
-  {
     title: "AT Import | Export",
     description:
       "The website combines React JavaScript for dynamic elements, Tailwind CSS for efficient styling, and supports English, Arabic, and Chinese languages.",
@@ -132,6 +124,14 @@ export const projectsData = [
     tags: ["React", "Jsx", "Node", "Tailwind", "Firebase Database"],
     imageUrl: amazon,
     linkURL: "https://project-d9df7.web.app/",
+  },
+  {
+    title: "Abe Garage",
+    description:
+      "This Garage Management System is driven by the MERN stack. It offers role-based access control for Employees, Customers, Administrators, and other designated user categories.",
+    tags: ["React", "Javascript", "Node", "Bootstrap", "MySQL"],
+    imageUrl: garagelogo,
+    linkURL: "https://abegarageexpress.com)",
   },
 ] as const;
 
