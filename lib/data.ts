@@ -83,7 +83,7 @@ export const projectsData = [
       "This Garage Management System is driven by the MERN stack. It offers role-based access control for Employees, Customers, Administrators, and other designated user categories.",
     tags: ["React", "Javascript", "Node", "Bootstrap", "MySQL"],
     imageUrl: garagelogo,
-    linkURL: "https://github.com/hermela1595/Abe-Garage-App",
+    linkURL: "https://abegarageexpress.com)",
   },
   {
     title: "AT Import | Export",
